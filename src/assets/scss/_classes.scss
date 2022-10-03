@@ -1,0 +1,129 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.btn-white {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  padding: 1rem 1.6rem;
+  border: 1.5px solid var(--bg-gray);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+
+  svg + span {
+    border-left: 0.1rem solid rgba(138, 143, 160, 0.2);
+    padding-left: 1.5rem;
+    margin-left: 1.5rem;
+    min-width: 11.2rem;
+  }
+  span {
+    small {
+      font-size: 1.1rem;
+    }
+  }
+  &:not(:first-child) {
+    margin-left: 2rem;
+  }
+
+  &:hover, &:active, &:focus, &:focus-visible{
+    background: var(--white) !important;
+    color: inherit !important;
+  }
+}
+
+// React Calendar
+.react-calendar {
+  border: 0 !important;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "inter";
+  position: absolute;
+  z-index: 99;
+  top: 5rem;
+  right: 0;
+
+  .rdrInputRanges{
+    display: none;
+  }
+}
+
+
+
+// Chart legends
+.legends {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  ul {
+    display: flex;
+  }
+  li {
+    font-size: 1.15rem;
+    &:not(:first-child) {
+      margin-left: 3rem;
+    }
+    &.legend-label {
+      display: flex;
+      align-items: center;
+      span {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        margin-right: 0.7rem;
+        display: inline-flex;
+      }
+      &:not(:first-child) {
+        margin-left: 3rem;
+      }
+    }
+  }
+  .text-blue {
+    span {
+      background: var(--blue);
+    }
+  }
+  .text-pink {
+    span {
+      background: var(--pink);
+    }
+  }
+  .text-black {
+    span {
+      background: var(--black);
+    }
+  }
+  .text-red {
+    span {
+      background: var(--red);
+    }
+  }
+  .text-light-blue {
+    span {
+      background: var(--light-blue);
+    }
+  }
+  .text-purple {
+    span {
+      background: var(--purple);
+    }
+  }
+  .text-cream {
+    span {
+      background: var(--cream);
+    }
+  }
+  .text-green {
+    span {
+      background: var(--green);
+    }
+  }
+  .text-light-green {
+    span {
+      background: var(--light-green);
+    }
+  }
+}

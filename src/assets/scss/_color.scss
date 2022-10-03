@@ -1,0 +1,44 @@
+// css variable
+:root {
+  --gray: #8A8FA0;
+  --gray-track: #e7e7e7;
+  --white: #ffffff;
+  --black: #000000;
+  --red: #D93025;
+  --light-red: #FB3D3D;
+  --blue: #1A73E8;
+  --light-blue: #79C2FD;
+  --purple: #6B5DD3;
+  --green: #88BB96;
+  --maroon: #A1776C;
+  --cream: #FFE58C;
+  --pink: #FFBFA5;
+  --bg-gray: #f5f4f6;
+  --blue-dark: #70A6F7;
+  --blue-light: #dfebfc;
+  --light-green: #BEE8BC;
+
+  // Dark Mode
+  --dark: #131517;
+  --light-black: #1E1F25;
+  --light-black-2: #272D36;
+}
+
+// scss variable
+$gray: var(--gray);
+$black: var(--black);
+$red: var(--red);
+$light-red: var(--light-red);
+$blue: var(--blue);
+$blue-dark: var(--blue-dark);
+$blue-light: var(--blue-light);
+$green: var(--green);
+$maroon: var(--maroon);
+$white: var(--white);
+$light-green: var(--light-green);
+$pink: var(--pink);
+
+// color classes
+.text-green{color: $green}
+.text-blue{color: $blue}
+.text-red{color: $red}

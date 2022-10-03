@@ -1,0 +1,19 @@
+<svg
+  width="12"
+  height="16"
+  viewBox="0 0 12 16"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+<path
+    d="M1 14.6667H11H1ZM6 1.33334V11.3333V1.33334ZM6 11.3333L8.91667 8.41668L6 11.3333ZM6 11.3333L3.08333 8.41668L6 11.3333Z"
+    fill="black"
+  />
+<path
+    d="M1 14.6667H11M6 1.33334V11.3333M6 11.3333L8.91667 8.41668M6 11.3333L3.08333 8.41668"
+    stroke="black"
+    stroke-width="1.20833"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

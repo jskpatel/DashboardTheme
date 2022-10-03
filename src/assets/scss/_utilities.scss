@@ -1,0 +1,98 @@
+::-webkit-scrollbar {
+  width: .7rem;
+  height: .7rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-track);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: $gray;
+}
+
+body{
+  font-size: 1.7rem;
+  font-family: inter;
+  font-weight: 400;
+  background-color: red;
+}
+
+th{ 
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+td{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.08rem;
+  font-weight: 300;
+}
+hr{
+  margin: 0;
+}
+input, a{
+  &:hover, &:focus-visible, &:focus, &:active{
+    border: 0;
+    box-shadow: none;
+    outline: none;
+  }
+}
+.pointer-none {
+  pointer-events: none;
+}
+.pointer-all {
+  pointer-events: initial;
+}
+
+
+/* Table Custom Changes */
+.cTable{
+  border: .1rem solid #ddd;
+  border-radius: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+
+  thead{
+    background: var(--bg-gray);
+    th{
+      padding: 1.5rem;
+    }
+  }
+  tbody{
+    td{
+      padding: 1.2rem 1.5rem;
+      font-size: 1.4rem;
+      line-height: 2rem;
+
+      table{
+        td{
+          span:empty {
+            width: 12px;
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+  &-expand-arrow{
+    border: .1rem solid #f0f0f0;
+    padding: .5rem;
+    border-radius: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+  }
+  &-incoming{
+    width: 20rem;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,121 @@
+body{
+  background-color: var(--bg-gray);
+  color: $black;
+  &.darkMode{
+    background-color: var(--dark);
+    color: $white;
+  }
+}
+
+.bgTheme, .rdrDefinedRangesWrapper{
+  background: var(--white);
+}
+.searchbar{
+  input {background: var(--white);}
+  span{background: var(--bg-gray);}
+}
+
+.btn-white {
+  color: var(--black);
+  &:hover, &:active, &:focus, &:focus-visible{
+    background: var(--white) !important;
+    color: inherit !important;
+  }
+}
+.mCCAcountDataPopup, .settingOptions, .themeShadow{box-shadow: 0 0 1rem 0 #dfdfdf;}
+.subHeading{background: var(--blue-light);}
+.bgThemeText{color: var(--black)}
+.table > :not(caption) > * > *{
+  padding: 1rem 0.5rem;
+}
+.settingOptions{
+  li{
+    border-bottom: 0.1rem solid #f5f9f9;
+  }
+}
+
+.bgTheme{
+  &.gray {
+    background: var(--bg-gray);
+    color: #000;
+  }
+}
+
+
+// DARK MODE
+.darkMode{
+  .searchbar{
+    input {background: var(--light-black);}
+    span {background: var(--light-black-2);}
+  }
+
+  .bgTheme, .rdrDefinedRangesWrapper{
+    background: var(--light-black);
+  }
+
+  .btn-white {
+    color: var(--white);
+    border: .1rem solid var(--light-black);
+    &:hover, &:active, &:focus, &:focus-visible{
+      background: var(--light-black) !important;
+      color: inherit !important;
+    }
+  }
+  .mCCAcountDataPopup, .settingOptions, .themeShadow{box-shadow: 0 0 1rem 0 var(--dark);}
+  .subHeading{background: rgba(26, 115, 232, 0.3);}
+  .bgThemeText{color: var(--white)}
+  .table > :not(caption) > * > *,
+  .settingOptions li{
+    border-bottom: .1rem solid var(--light-black-2);
+    &:hover{background-color: var(--light-black-2);}
+  }
+  .table-hover > tbody > tr:hover > *{
+    color: var(--white);
+  }
+
+  .bgTheme{
+    &.gray {
+      background: var(--light-black-2);
+      color: var(--white);
+    }
+  }
+}
+
+
+// Calendar
+.darkMode{ 
+  .rdrStaticRange{
+    background: var(--light-black-2);
+    color: var(--white);
+    border-bottom: .1rem solid var(--light-black);
+
+    &:hover{
+      .rdrStaticRangeLabel{
+        background: var(--light-black-2);
+        color: var(--blue);
+      }
+    }
+  }
+  .rdrCalendarWrapper{
+    background: var(--light-black);
+  }
+  .rdrDateDisplayWrapper{
+    background-color: transparent;
+  }
+  .rdrDateDisplayItem{ 
+    background: var(--light-black-2); 
+    border: 0;
+    input{
+      color: var(--white)
+    }
+  }
+  .rdrNextPrevButton, .rdrMonthAndYearPickers select {
+    background: var(--light-black-2)
+  }
+  .rdrDayDisabled {
+    background: transparent;
+  }
+  .rdrDefinedRangesWrapper{
+    border-right: .1rem solid var(--light-black-2)
+  }
+}

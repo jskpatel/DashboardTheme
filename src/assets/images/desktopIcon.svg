@@ -1,0 +1,27 @@
+<svg
+  width="22"
+  height="17"
+  viewBox="0 0 22 17"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+<rect
+    x="2"
+    y="13"
+    width="12"
+    height="18"
+    rx="1"
+    transform="rotate(-90 2 13)"
+    stroke="#4575D7"
+    stroke-width="2"
+  />
+<rect
+    x="22"
+    y="17"
+    width="22"
+    height="2"
+    rx="1"
+    transform="rotate(180 22 17)"
+    fill="#4575D7"
+  />
+</svg>
